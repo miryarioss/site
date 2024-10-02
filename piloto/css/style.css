@@ -1,0 +1,117 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+    height: auto; /* Garantir que o body preencha a altura total */
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 15px;
+    background-color: #2e4a6f;
+    color: #f5f5f5;
+}
+
+.header { /* DIV DO CABEÇALHO DO BLOG */
+    width: auto; 
+    min-height: 40px;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #FFFFFF;   
+    display: flex;
+    justify-content: left;
+    background-color: #1E3A5F;
+}
+#nome, #sub-menu{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+#sub-menu1{
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+
+}
+#sub-menu2{
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+
+}
+
+
+.img-news{
+    width: 450px;
+    max-height: 250px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.feed {
+    width: 50%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 10%;
+    position: relative;
+    background-color: rgba(30, 58, 95, 0.6); /* Fundo com 50% de transparência*/
+    overflow: hidden;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+}
+.feed-news {
+    width: 20%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 10%;
+    padding: 10px;
+    position: relative;
+    background-color: rgba(30, 58, 95, 0.6); /* Fundo com 50% de transparência*/
+    overflow: hidden;
+    position: fixed;
+    top: 65px;
+    left: 850px;
+    border-radius: 5px;
+
+}
+
+
+.box { /* DIV DAS NOTICIAS */
+
+    max-height: 250px;
+    max-width: 450px;
+    display: flex;
+
+    margin-top: 90px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+}
+
+
+.paragrafh {
+    position: relative;
+    margin-bottom: 25px;
+    color: #ffffef;
+}
+
+.titles {
+    min-height: 50px;
+    margin:30px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: absolute;
+    opacity: 1;
+    font-size: 12px;
+}
+
+
+img {
+    width: 33.3%;
+    margin-right: 5px;
+    position: relative;
+}
